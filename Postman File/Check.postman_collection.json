@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "0bf399d5-dd2d-4338-8d3e-695080ba3ba9",
+		"name": "Check",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "935972",
+		"_collection_link": "https://essence-technologies.postman.co/workspace/Private~9197e07c-895c-45a4-bfb3-32308bfb7c0b/collection/935972-0bf399d5-dd2d-4338-8d3e-695080ba3ba9?action=share&source=collection_link&creator=935972"
+	},
+	"item": [
+		{
+			"name": "File Upload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "Name",
+							"value": "Kabindra Bakey",
+							"type": "text"
+						},
+						{
+							"key": "Address",
+							"value": "Bhaktapur",
+							"type": "text"
+						},
+						{
+							"key": "Photo",
+							"type": "file",
+							"src": "/D:/OneDrive/Clients/sebs/car renting/Overview.pdf"
+						},
+						{
+							"key": "Children[0].name",
+							"value": "Krizza",
+							"type": "text"
+						},
+						{
+							"key": "Children[0].gender",
+							"value": "Female",
+							"type": "text"
+						},
+						{
+							"key": "Children[0].Photo",
+							"type": "file",
+							"src": "/D:/OneDrive/Clients/sebs/car renting/Overview.pdf"
+						},
+						{
+							"key": "Children[1].name",
+							"value": "Krizzal",
+							"type": "text"
+						},
+						{
+							"key": "Children[1].gender",
+							"value": "Male",
+							"type": "text"
+						},
+						{
+							"key": "Children[1].Photo",
+							"type": "file",
+							"src": "/D:/OneDrive/Clients/sebs/car renting/Overview.pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:7122/Main",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7122",
+					"path": [
+						"Main"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
