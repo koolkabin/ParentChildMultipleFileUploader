@@ -1,0 +1,6 @@
+@ParentChildMultipleFileUploader_HostAddress = http://localhost:5002
+
+GET {{ParentChildMultipleFileUploader_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
